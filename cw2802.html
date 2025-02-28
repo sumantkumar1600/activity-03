@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to Your Website</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 font-sans h-screen w-screen">
+    <header class="bg-green-500 text-white text-center py-4 text-2xl font-bold">
+        Welcome to Your Website Task
+    </header>
+
+    <nav class="bg-green-500 text-white py-2 text-center">
+        <a href="#" class="mx-4 hover:underline">Home</a>
+        <a href="#" class="mx-4 hover:underline">About</a>
+        <a href="#" class="mx-4 hover:underline">Contact</a>
+    </nav>
+
+    <div class="container mx-auto my-8 grid grid-cols-3 gap-4">
+        <div class="col-span-2 space-y-4">
+            <div class="bg-white p-4 shadow rounded-lg h-64 w-120vh">
+                <h2 class="text-xl font-semibold">About CSS</h2>
+                <p class="mt-2">CSS is used to style and layout web pages. </p>
+            </div>
+
+            <div class="bg-white p-4 shadow rounded-lg h-64 w-full">
+                <h2 class="text-xl font-semibold">Responsive Design</h2>
+                <p class="mt-2">Responsive design ensures that web pages look good on all devices.</p>
+            </div>
+        </div>
+
+        <div class="bg-white p-4 shadow rounded-lg col-span-1 w-full h-64">
+            <h2 class="text-xl font-semibold">Box Model</h2>
+            <p class="mt-2">Learn about the CSS Box Model.</p>
+        </div>
+    </div>
+
+    <footer class="bg-black text-white text-center p-4 fixed bottom-0 w-full">
+        Created by <a href="https://instagram.com/your_insta_id" class="underline">unknown</a> | 
+        <a href="https://twitter.com/your_twitter_id" class="underline">Follow us on Twitter</a> |
+    </footer>
+</body>
+</html>
